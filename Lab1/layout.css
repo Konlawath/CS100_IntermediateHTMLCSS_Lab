@@ -1,19 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-    
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
 }
 
 nav {
-
+    float: left;
+    height: 90%;
+    width: 20%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+    float: 10 10;
 }
 
 article {
-
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+    height: 90%;
+    width: 60%;
 }
 
 div {
-
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+    height: 90%;
+    width: 20%;
 }
 
 footer {
-
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+    clear: both;
 }
